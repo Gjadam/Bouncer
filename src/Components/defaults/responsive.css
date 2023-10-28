@@ -63,6 +63,9 @@
     .cart-empty__text {
         font-size: 3rem !important;
     }
+    .header-products__product {
+        background-image: none !important;
+    }
     .header-products__product__content__wrapper {
         max-width: 35rem !important;
     }
