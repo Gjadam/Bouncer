@@ -69,4 +69,11 @@
     .header-products__product__content__wrapper {
         max-width: 35rem !important;
     }
+    .best-seller__product {
+        max-width: 22rem !important;
+        max-height: 26rem !important;
+    }
+    .best-seller__product__title {
+        font-size: 1.2rem !important;
+    }
 }
