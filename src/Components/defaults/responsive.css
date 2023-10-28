@@ -64,6 +64,6 @@
         font-size: 3rem !important;
     }
     .header-products__product__content__wrapper {
-        width: 45rem !important;
+        max-width: 35rem !important;
     }
 }
