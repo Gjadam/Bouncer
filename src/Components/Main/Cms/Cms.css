@@ -1,0 +1,47 @@
+.cms {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.cms__left-side {
+    background-color: var(--primary-color);
+    width: 30rem;
+    height: 100vh;
+}
+.cms__left-side__title {
+    text-align: center;
+    color: var(--light-color);
+    font-size: 2.5rem;
+    padding: 2rem;
+    font-family: var(--font-bold);
+}
+.cms__left-side__admin-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cms__left-side__admin-info__image {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0 1rem;
+}
+
+.cms__left-side__admin-info__infos-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cms__left-side__admin-info__username {
+    font-size: 1.2rem;
+    color: var(--light-color);
+}
+.cms__left-side__admin-info__role {
+    font-size: 1rem;
+    color: var(--light-color);
+}

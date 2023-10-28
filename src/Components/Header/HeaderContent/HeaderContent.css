@@ -1,0 +1,103 @@
+
+.header-content {
+    background-image: linear-gradient(to right top, #ff4858, #fb4d9a, #d86bd2, #9989f6, #33a0ff);
+    margin-top: 2rem;
+
+}
+.header-content__wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80vh;
+    background: url('/public/images/Header/Header-bg.png') no-repeat;
+    background-position: right center;
+    background-size: contain;
+}
+.header-content__left-side {
+    margin: 0 20rem;
+}
+.header-content__title {
+    font-size: 3.6rem;
+    font-family: var(--font-bold);
+    color: var(--light-color)
+}
+.header-content__text {
+    max-width: 37rem;
+    color: var(--light-color);
+    padding: 4rem 0;
+}
+.header-content__link {
+    color: var(--light-color);
+    position: relative;
+    font-family: var(--font-bold);
+}
+
+.header-content__link::after {
+    content: "";
+    background-color: #fff;
+    width: 0;
+    height: 0.2rem;
+    position: absolute;
+    bottom: -0.2rem;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.header-content__link:hover::after {
+    width: 100%;
+}
+
+.header-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: -10rem 0;
+    padding: 0 10rem;
+}
+.header-products__product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--icon-color);
+    background-image: url('/public/images/Header/Header-img-1.png');
+    background-repeat: no-repeat;
+    background-size: 22rem;
+    background-position: top right;
+    color: var(--light-color);
+}
+
+.header-products__product:nth-child(2) {
+    background-image: url('/public/images/Header/Header-img-2.png');
+    background-repeat: no-repeat;
+    background-size: 22rem;
+    background-position: right;
+    background-color: #f6f7f8;
+    color: var(--primary-color);
+}
+
+.header-products__product:nth-child(3) {
+    background-image: url('/public/images/Header/Header-img-3.png');
+    background-repeat: no-repeat;
+    background-size: 22rem;
+    background-position: right;
+    background-color: var(--product-price-off-color);
+}
+
+.header-products__product__content__wrapper {
+    height: 30rem;
+    width: 50rem;
+    padding: 3rem;
+}
+
+.header-products__product__title {
+    font-size: 2.4rem;
+}
+
+.header-products__product__text {
+    max-width: 30rem;
+    padding: 2rem 0;
+}
+.header-products__product__price {
+    font-size: 2.4rem;
+}

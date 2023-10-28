@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+*,*::after,*::before {
+    outline: none;
+    box-sizing: inherit;
+}
+body {
+    line-height: 1.5;
+    font-family: "Proxima";
+    font-size: 1.6rem;
+}
+
+.container {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #22262A;
+    --light-color: #fff;
+    --blue-color: #33A0FF;
+    --header-logo-color: #FF4252;
+    --product-title-color: #262626;
+    --product-price-color: #FF4858;
+    --product-price-off-color: #C1C8CE;
+    --icon-color: #FF6875;
+    --border-color: #F6F7F8;
+    --font-bold: "Proxima Bold";
+    --section-margin: 7rem 0;
+}

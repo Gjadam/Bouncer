@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.304" height="25.142" viewBox="0 0 38.304 25.142">
+  <g id="Group_19" data-name="Group 19" transform="translate(-1390.494 -5149.874)">
+    <path id="Shape_327" data-name="Shape 327" d="M1418.159,4889.874h34.973a1.7,1.7,0,0,1,1.665,1.734v21.674a1.7,1.7,0,0,1-1.665,1.734h-34.973a1.7,1.7,0,0,1-1.665-1.734v-21.674A1.7,1.7,0,0,1,1418.159,4889.874Z" transform="translate(-26 260)" fill="#5870be"/>
+    <path id="Shape_329" data-name="Shape 329" d="M1433.249,4902.441a8.979,8.979,0,1,1,8.98,8.981,8.98,8.98,0,0,1-8.98-8.981Z" transform="translate(-26 260)" fill="#ffaf38"/>
+    <path id="Shape_329-2" data-name="Shape 329" d="M1428.47,4911.42a8.98,8.98,0,1,1,7.191-14.36h-1.2v.6h1.613c.121.191.235.389.341.589h-2.554v.6h2.843c.088.2.167.4.237.6h-3.68v.6h3.868a9.033,9.033,0,0,1-.192,5.389h-3.676v.6h3.439c-.09.207-.187.4-.285.591h-2.554v.6h2.206c-.133.21-.272.411-.413.6h-1.193v.6h.7A8.993,8.993,0,0,1,1428.47,4911.42Z" transform="translate(-26 260)" fill="#e63737"/>
+    <text id="MasterCard" transform="translate(1392.177 5164.036) rotate(7.313)" fill="#fff" font-size="6" font-family="Arial-Black, Arial" font-weight="800" letter-spacing="-0.075em"><tspan x="0" y="0">MasterCard</tspan></text>
+  </g>
+</svg>

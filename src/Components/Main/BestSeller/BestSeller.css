@@ -1,0 +1,229 @@
+.best-seller {
+    margin: 20rem 0;
+}
+.best-seller__title {
+    font-family: var(--font-bold);
+    font-size: 3rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+.best-seller__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.best-seller__link {
+    padding: 1.5rem 3rem;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.best-seller__link:hover {
+    color: var(--blue-color);
+}
+
+.best-seller__link::before {
+    content: "";
+    background-color: var(--blue-color);
+    width: 0;
+    height: 0.3rem;
+    position: absolute;
+    right: 50%;
+    bottom: -1px;
+    transition: all 0.3s;
+}
+
+.best-seller__link:hover::before {
+    width: 40%;
+}
+ 
+.best-seller__link::after {
+    content: "";
+    background-color: var(--blue-color);
+    width: 0;
+    height: 0.3rem;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    transition: all 0.3s;
+}
+
+.best-seller__link:hover::after {
+    width: 40%;
+}
+
+.-active {
+    padding: 1.5rem 3rem;
+    color: var(--blue-color);
+    border-bottom: 0.3rem solid var(--blue-color);
+}
+
+.best-seller__products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 1.5rem;
+}
+.best-seller__product {
+    border: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 6rem;
+    width: 33rem;
+    height: 33rem;
+    cursor: pointer;
+    position: relative;
+}
+.best-seller__product__image {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    -webkit-user-select: none;
+}
+
+.best-seller__product:hover {
+    .best-seller__product__image {
+        opacity: 0.3;
+    }
+
+    .best-seller__product__btns {
+        display: block;
+    }
+}
+
+.best-seller__product__btns {
+    position: absolute;
+    top: 15rem;
+    display: none;
+}
+
+.best-seller__product__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--blue-color);
+    transition: all 0.3s;
+    position: relative;
+}
+
+.best-seller__product__btn::before {
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: var(--blue-color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.best-seller__product__btn:hover:before {
+    width: 50%;
+}
+
+.best-seller__product__btn::after {
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: var(--blue-color);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.best-seller__product__btn:hover::after {
+    width: 50%;
+}
+
+
+
+.best-seller__product__btn__text {
+    color: var(--blue-color);
+    padding: 0.5rem 2rem;
+    font-weight: 900;
+    transition: all 0.3s;
+}
+
+.best-seller__product__btn__text:hover {
+    color: var(--light-color);
+}
+
+
+
+
+.best-seller__product__title {
+    color: var(--product-title-color);
+    text-align: center;
+}
+.best-seller__product__prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.best-seller__product__price {
+    margin-right: 2rem;
+    color: var(--product-price-color);
+}
+.best-seller__product__off-price {
+    color: var(--product-price-off-color);
+    position: relative;
+}
+
+.best-seller__product__off-price::before {
+    content: "";
+    background-color: #5D656B;
+    width: 100%;
+    height: 0.2rem;
+    position: absolute;
+    left: 0;
+    top: 1.1rem;
+}
+
+.best-seller__load-more {
+    text-align: center;
+    margin: 8rem;
+}
+.best-seller__load-more__btn {
+    font-family: var(--font-bold);
+    color: var(--blue-color);
+    position: relative;
+}
+
+.best-seller__load-more__btn::before {
+    content: "";
+    background-color: var(--blue-color);
+    width: 0;
+    height: 0.3rem;
+    position: absolute;
+    left: 50%;
+    bottom: -0.5rem;
+    transition: all 0.3s;
+}
+
+.best-seller__load-more__btn:hover::before {
+    width: 50%;
+}
+
+.best-seller__load-more__btn::after {
+    content: "";
+    background-color: var(--blue-color);
+    width: 0;
+    height: 0.3rem;
+    position: absolute;
+    right: 50%;
+    bottom: -0.5rem;
+    transition: all 0.3s;
+}
+
+.best-seller__load-more__btn:hover::after {
+    width: 50%;
+}

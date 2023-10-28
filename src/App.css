@@ -1,0 +1,9 @@
+@import url('./Components/defaults/reset.css');
+@import url('./Components/defaults/default.css');
+@import url('./Components/defaults/fonts.css');
+@import url('./Components/defaults/responsive.css');
+@import url('./Components/defaults/variables.css');
+
+html {
+    scroll-behavior: smooth;
+}

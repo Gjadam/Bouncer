@@ -1,0 +1,28 @@
+.support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: var(--section-margin);
+}
+.support__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 5rem;
+}
+
+.support__item__title {
+    text-align: center;
+    padding: 2.5rem;
+    font-size: 2.4rem;
+    font-family: var(--font-bold);
+    color: var(--primary-color);
+}
+.support__item__text {
+    text-align: center;
+    max-width: 32rem;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}

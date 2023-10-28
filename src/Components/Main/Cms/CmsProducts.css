@@ -1,0 +1,102 @@
+.cms__left-side__options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+    border-top: 1px solid var(--light-color);
+}
+.cms__left-side__option {
+    color: var(--light-color);
+    padding: 1rem 0;
+    width: 100%;
+    transition: all 0.3s;
+    padding: 2rem 0;
+}
+
+.cms__left-side__option:hover {
+    background-color: var(--light-color);
+    color: var(--primary-color);
+}
+
+.cms__right-side {
+    width: 100%;
+}
+
+.cms__right-side__insert-products {
+    
+}
+.cms__right-side__insert-products__title {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin: 1rem;
+    font-weight: 900;
+}
+.cms__right-side__insert-products__inputs {
+
+}
+.cms__right-side__insert-products__input {
+    width: 100%;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.cms__right-side__insert-products__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.3rem;
+    width: 100%;
+    font-size: 2rem;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
+
+.cms__right-side__insert-products__product {
+    margin: var(--section-margin);
+}
+.cms__right-side__insert-products__product__title {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin: 1rem;
+    font-weight: 900;
+}
+.cms__right-side__insert-products__product__content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid var(--product-price-off-color);
+    border-radius: 0.3rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+.cms__right-side__insert-products__product__content__image {
+    width: 20rem;    
+}
+
+.cms__right-side__insert-products__product__content__name {
+        color: var(--primary-color);
+        font-weight: 900;
+        max-width: 10rem;
+}
+.cms__right-side__insert-products__product__content__price {
+        color: var(--primary-color);
+        font-weight: 900;
+}
+
+.cms__right-side__insert-products__product__content__btns {
+    margin: 2rem;
+}
+
+.cms__right-side__insert-products__product__content__btn {
+    color: var(--header-logo-color);
+    padding: 0.8rem;
+    transition: all 0.3s;
+}
+
+.cms__right-side__insert-products__product__content__btn:hover {
+    color: var(--product-price-off-color);
+}
